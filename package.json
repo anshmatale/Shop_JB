@@ -1,0 +1,18 @@
+{
+  "name": "bajrang-chaat-house-menu",
+  "version": "1.0.0",
+  "description": "Premium bilingual digital menu website for Bajrang Chaat House",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y http-server -p 3000 -o",
+    "start": "npx -y http-server -p 3000"
+  },
+  "keywords": [
+    "bajrang",
+    "menu",
+    "bilingual",
+    "premium"
+  ],
+  "author": "Bajrang Chaat House",
+  "license": "ISC"
+}
