@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Nunito:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #C1272D;
+  --color-primary-hover: #9E1F24;
+  --font-display: 'Poppins', sans-serif;
+  --font-sans: 'Nunito', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #FFFDF7;
+    color: #2B2B2B;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom Scrollbar for horizontal category tabs and page scrolling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFDF7;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(193, 39, 45, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C1272D;
+}
