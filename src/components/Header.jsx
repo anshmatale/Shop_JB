@@ -50,8 +50,8 @@ export default function Header({ searchQuery, setSearchQuery }) {
         {/* Center Nav Links */}
         <nav className="flex items-center gap-6 text-sm font-semibold">
           <a href="#hero" className="hover:text-primary transition-colors">Home</a>
-          <a href="#about" className="hover:text-primary transition-colors">About</a>
           <a href="#menu" className="hover:text-primary transition-colors">Menu</a>
+          <a href="#about" className="hover:text-primary transition-colors">About</a>
           <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
         </nav>
 

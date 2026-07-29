@@ -6,8 +6,8 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="assets/images/hero_chaat.png"
-          alt="Indian Street Food Collage"
+          src="assets/images/hero_restaurant.jpg"
+          alt="Bajrang Chaat House Restaurant Interior"
           className="w-full h-full object-cover scale-105 filter brightness-50"
         />
         {/* Soft overlay gradient */}
