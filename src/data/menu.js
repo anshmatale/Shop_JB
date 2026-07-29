@@ -38,7 +38,7 @@ export const MENU_ITEMS = [
     name: 'Raj Kachori ⭐',
     description: 'Crispy giant kachori filled with potatoes, sprouts, curd, tangy chutneys and fresh spices. A perfect balance of sweet, spicy and crunchy flavours.',
     price: 90, // TEMP PRICE
-    image: 'assets/images/raj_kachori.png',
+    image: '/assets/images/raj_kachori.png',
     isVegetarian: true,
     isBestseller: true,
     badgeText: 'Bestseller',
@@ -219,7 +219,7 @@ export const MENU_ITEMS = [
     name: 'Masala Dosa',
     description: 'Crispy golden dosa rolled with a flavorful filling of tempered potato mash, mustard seeds, and curry leaves.',
     price: 90, // TEMP PRICE
-    image: 'assets/images/masala_dosa.png',
+    image: '/assets/images/masala_dosa.png',
     isVegetarian: true
   },
   {
@@ -228,7 +228,7 @@ export const MENU_ITEMS = [
     name: 'Ghee Masala Dosa 👨🍳',
     description: 'Crispy dosa cooked in ghee with spiced potato filling. Smells heavenly and has an extra rich crunch.',
     price: 120, // TEMP PRICE
-    image: 'assets/images/masala_dosa.png',
+    image: '/assets/images/masala_dosa.png',
     isVegetarian: true,
     isChefSpecial: true,
     badgeText: "Chef's Special",
@@ -560,7 +560,7 @@ export const MENU_ITEMS = [
     name: 'Pav Bhaji',
     description: 'A spiced blend of mashed mixed vegetables cooked with butter, served with soft toasted pav.',
     price: 90, // TEMP PRICE
-    image: 'assets/images/pav_bhaji.png',
+    image: '/assets/images/pav_bhaji.png',
     isVegetarian: true
   },
   {
@@ -569,7 +569,7 @@ export const MENU_ITEMS = [
     name: 'Butter Pav Bhaji 👨🍳',
     description: 'Rich buttery vegetable mash served with toasted pav & onions. Loaded with premium Amul butter.',
     price: 110, // TEMP PRICE
-    image: 'assets/images/pav_bhaji.png',
+    image: '/assets/images/pav_bhaji.png',
     isVegetarian: true,
     isChefSpecial: true,
     badgeText: "Chef's Special",
@@ -639,7 +639,7 @@ export const MENU_ITEMS = [
     name: 'Chai',
     description: 'Strong, aromatic milk tea brewed with fresh ginger, cardamom, and premium tea leaves.',
     price: 20, // TEMP PRICE
-    image: 'assets/images/chai_bun_maska.png',
+    image: '/assets/images/chai_bun_maska.png',
     isVegetarian: true
   },
   {
@@ -648,7 +648,7 @@ export const MENU_ITEMS = [
     name: 'Bun Maska',
     description: 'Soft sweet bun sliced and layered generously with fresh white butter. Best dipped in hot chai.',
     price: 40, // TEMP PRICE
-    image: 'assets/images/chai_bun_maska.png',
+    image: '/assets/images/chai_bun_maska.png',
     isVegetarian: true
   }
 ];

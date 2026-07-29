@@ -11,7 +11,7 @@ export default function Footer() {
             {/* Logo and Name */}
             <div className="flex items-center gap-4">
               <img
-                src="assets/images/logo.jpg"
+                src="/assets/images/logo.jpg"
                 alt="Bajrang Chaat House Logo"
                 className="w-14 h-14 rounded-full object-cover border-2 border-primary"
               />

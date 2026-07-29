@@ -35,7 +35,7 @@ export default function Header({ searchQuery, setSearchQuery }) {
         {/* Left Side: Logo & Brand Name */}
         <a href="#hero" className="flex items-center gap-3">
           <img
-            src="assets/images/logo.jpg"
+            src="/assets/images/logo.jpg"
             alt="Bajrang Chaat House Logo"
             className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover border border-primary"
           />
